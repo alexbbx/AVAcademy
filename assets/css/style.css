@@ -83,7 +83,6 @@ header img {
 }
 
 .loock {
-  width:350px;
   margin-top: 20px;
   filter: blur(10px);
 }
@@ -482,6 +481,10 @@ code {
 
 body {
   width: 100%;
+}
+
+.loock {
+    width:350px;
 }
 
 .tab-header {
