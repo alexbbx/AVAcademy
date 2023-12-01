@@ -83,6 +83,7 @@ header img {
 }
 
 .loock {
+  width:350px;
   margin-top: 20px;
   filter: blur(10px);
 }
