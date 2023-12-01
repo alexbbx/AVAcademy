@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/img/books.png" type="image/x-icon">
+  <title>AVAcademy</title>
+</head>
+<body>
+  <header>
+    <h1><img src="./assets/img/11.gif" alt="11">AVAcademy</h1>
+  </header>
+  <div class="tabs">
+    <div class="tab-header">
+      <button class="tab-button active" data-tab="tab1">
+        <img src="./assets/img/html.png" alt="html">WebCore<div id="greyProgress">
+          <div id="greenBar">10%</div>
+        </div></button>
+        <button class="tab-button x" data-tab="tab2" data-title="Доступ ✘ закрыт">
+          <img src="./assets/img/js.jpg" alt="js">JsCore</button> 
+          <button class="tab-button x" data-tab="tab3" data-title="Доступ ✘ закрыт">
+            <img src="./assets/img/react.png" alt="react">React</button>
+            <button class="tab-button x" data-tab="tab4" data-title="Доступ ✘ закрыт">
+              <img src="./assets/img/ts.png" alt="ts">TypeScript</button>
+    </div>
+    <div class="tab-content">
+      <div id="tab1" class="tab-item active">
+        <h2>Основы CSS/HTML</h2>
+        <div id="content">
+          <div id="moreText" class="hidden">
+            <ul>
+              <li>
+                <a href="https://htmlacademy.ru/courses/basic-html-css">Знакомство с HTML и CSS</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/advanced-html-css">Продвинутый HTML и CSS</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/42/run/1">Раздел про селекторы</a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/ru/docs/Learn/Accessibility/HTML">HTML: Хорошая основа для доступности</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=MWJKwn_gKR4">Макеев про кнопки, ссылки и доступность (видео)</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/blog/html/content-or-decor-img">img или background</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/blog/html/a-guide-to-svg-on-web">Про svg</a>
+              </li>
+              <li>
+                <a href="https://learn.javascript.ru/css-units">Единицы измерения CSS</a>
+              </li>
+              <li>
+                <a href="https://web-creator.ru/articles/jpeg_vs_png">JPEG и PNG — в чём разница форматов?</a>
+              </li>
+              <li>
+                <a href="https://dev-gang.ru/article/skrytie-elementov-v-vebe-3zoi5nbzxo/">Скрытие элементов в вебе</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=E6kLaaQFctU">Кастомные чекбоксы правильно</a>
+              </li>
+              <li>
+                <a href="http://css.yoksel.ru/specifity/">Сколько весят селекторы?</a>
+              </li>
+            </ul>
+          </div><button id="readMoreBtn">Показать темы</button>
+        </div>
+        <h2>Построение сеток + БЭМ именование</h2>
+        <div id="content">
+          <div id="moreTextd" class="hiddend">
+            <ul>
+              <li>
+                <a href="https://htmlacademy.ru/courses/layout">Сетки</a>
+              </li>
+              <li>
+                <a href="https://ru.bem.info/methodology/quick-start/">Документация БЭМ - Первые 4 раздела</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=kBgHdSOj33A">Доклад по БЭМ ( Слайды )</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=HihYQVuH64U">Методология БЭМ за 17 минут</a>
+              </li>
+              <li>
+                <a href="https://ru.hexlet.io/courses/html/lessons/devtools/theory_unit">Chrome DevTools</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/65/run/1">Сетки на флоатах и блочно-строчных</a>
+              </li>
+              <li>
+                <a href="https://habr.com/ru/post/321718/">Новая сетка на inline-block</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=uTS7CJ7gDwU&amp;ab_channel=temofart">CSS Display свойство</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/blog/video/shorts/short-21">Кроссбраузерная верстка</a>
+              </li>
+              <li>
+                <a href="https://yoksel.github.io/flex-cheatsheet/">Flexbox Cheatsheet</a>
+              </li>
+              <li>
+                <a href="https://toster.ru/q/520184">* { box-sizing: border-box; }</a>
+              </li>
+              <li>
+                <a href="https://itchief.ru/lessons/html-and-css/css-media-queries">CSS Медиа запросы</a>
+              </li>
+              <li>
+                <a href="https://itchief.ru/bootstrap/responsive-website-design">Адаптивный дизайн сайта</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/blog/html/figma">Основы Figma для верстальщика</a>
+              </li>
+              <li>
+                <a href="https://habr.com/ru/post/142486/">Подробно о свойстве float</a>
+              </li>
+              <li>
+                <div class="text">
+                  <h3>Примечания</h3><br>
+                  - inline-block и float для сеток устарели, но нужны для старых браузеров и саппорта старых проектов<br>
+                  - flex самая актуальная технология, на данный момент<br>
+                  - У grid еще не супер поддержка, но на будущее пригодится
+                </div>
+              </li>
+              <div class="works">
+                <h3>Практическая задача</h3>
+                <p><br>
+                Сверстать блок из <a href="https://www.figma.com/file/3rqvXG3YwNupBvgTCMooiy/%D0%91%D0%BB%D0%BE%D0%BA-1.3%3A-%D0%9F%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%82%D0%BE%D0%BA-%2B-%D0%91%D0%AD%D0%9C-%D0%B8%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5?node-id=0%3A312&amp;t=jJKMZDsovvVxSPjT-1">макета</a>, выложить на Github и Github pages.<br>
+                <br>
+                Это часть макета из блока 1.6, поэтому выделяйте общие элементы исходя из итогового макета.<br>
+                Для верстки использовать flexbox.<br>
+                Используем подход Mobile First: Сначала верстаем версию на 320px - потом прописываем измнения для остальных экранов<br>
+                <a href="https://webfonts.pro/base-web-fonts/sans-serif-grotesque/897-tt-lakes.html">Шрифт для макета</a><br>
+                Все стили должны быть по БЭМ. Стиль именования - two dashes: block-name__elem-name--mod-name--mod-val<br>
+                На мобилке меню скроллится с помощью стандартного горизонтального скролла, см. свойство overflow<br>
+                На различный порядок и количество пунктов меню не обращайте внимание - меню на всех разрешениях должно быть одинаковым.</p>
+              </div>
+            </ul>
+          </div><button id="readMoreBtnd">Показать темы</button>
+        </div>
+        <h2>Продвинутая стилизация</h2>
+        <div id="content">
+          <div id="moreTexte" class="hiddene">
+            <ul>
+              <li>
+                <a href="https://htmlacademy.ru/courses/css-box-model">Позиционирование</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/basic-styling">Фоны (2 и 3 части)</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/decoration">Градиенты и тени + Декоративные эффекты (без испытаний)</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/advanced-decoration">Трансформации</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/dynamic">Динамические эффекты</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/workshop">Мастерские</a>
+              </li>
+              <li>
+                <a href="https://webformyself.com/css-ot-a-do-ya-raznica-mezhdu-translate-i-position-relative/">Почему перемещать элементы с помощью translate лучше, чем с position:absolute</a>
+              </li>
+              <li>
+                <a href="https://habr.com/ru/post/175747/">Emmet</a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">Контекст наложения</a>
+              </li>
+            </ul>
+            <div class="works">
+              <h3>Практическая задача</h3>
+              <p><br>
+              Сверстать блок из <a href="https://www.figma.com/file/mQU2ivQ2OK797KI9x8j7DX/%D0%91%D0%BB%D0%BE%D0%BA-1.4%3A-%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D0%B0%D1%8F-%D1%81%D1%82%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F?node-id=0%3A312&amp;t=oC0kRLaGviucmD5e-1">макета</a>, кладём в доступный файл в ближайший репозиторий. Блок должен быть шириной 320 пикселей и фиксироваться в левой части экрана независимо от размера экрана. При наведении стиль кнопок плавно меняется, возьмите для этого какой-нибудь css filter или opacity.</p>
+            </div>
+          </div><button id="readMoreBtne">Показать темы</button>
+        </div>
+        <h2>JavaScript в браузере</h2>
+        <div id="content">
+          <div id="moreTextr" class="hiddenr">
+            <ul>
+              <li>
+                <a href="https://learn.javascript.ru/coding-style">Требования к стилю кода</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/javascript">Программирование на JavaScript - Без задач из "Практика".</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/courses/javascript-in-browser">JS в браузере</a>
+              </li>
+              <li>
+                <a href="https://learn.javascript.ru/intro">Введение</a>
+              </li>
+              <li>
+                <a href="https://learn.javascript.ru/types">Типы данных</a>
+              </li>
+              <li>
+                <a href="https://learn.javascript.ru/type-conversions">Приведение типов</a>
+              </li>
+              <li>
+                <a href="http://learn.javascript.ru/closure">Замыкания</a>
+              </li>
+            </ul>
+            <div class="works">
+              <h3>Практическая задача</h3>
+              <p><br>
+              Сверстать блок из <a href="https://www.figma.com/file/7Aydx1qy2l56BJYrIDlHFq/%D0%91%D0%BB%D0%BE%D0%BA-1.5%3A-JavaScript-%D0%B2-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5?node-id=0%3A312&amp;t=dGww9JjOvv9cuZX8-1">макета</a>, добавить в репозиторий. Блок должен иметь разное количество элементов при разной ширине экранов. Необходимо реализовать кнопки "Показать все"/"Скрыть". По нажатию на кнопку "Показать все" должны открываться все ссылки и кнопка должна менять свое название на "Скрыть", по нажатию "Скрыть" ссылки должны сворачиваться обратно и кнопка должна поменять свое название на "Показать все". На мобильном нужно инициировать <a href="https://swiperjs.com/">этот слайдер</a> (погуглите, как это сделать только для мобилки, переключение при ресайзе не обязательно). На отличие набора брендов при разных разрешениях не обращайте внимание, главное чтобы их количество и внешний вид соответствовали макету.</p>
+            </div>
+          </div><button id="readMoreBtnr">Показать темы</button>
+        </div>
+        <h2>Настройки окружения + верстка финального макета</h2>
+        <div id="content">
+          <div id="moreTextf" class="hiddenf">
+            <ul>
+              <li>
+                <a href="https://proglib.io/p/chto-takoe-npm-gayd-po-node-package-manager-dlya-nachinayushchih-2020-07-21">Что такое npm?</a>
+              </li>
+              <li>
+                <a href="https://ru.hexlet.io/blog/posts/rukovodstvo-eslint-prettier">Руководство Eslint + Prettier</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=eSaF8NXeNsA&amp;t=2s&amp;ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD">Webpack</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/blog/js/useful-commands-for-working-with-nodejs">Полезные команды npm</a>
+              </li>
+              <li>
+                <a href="https://frontender.info/task_automation_with_npm_run/">Автоматизация задач с помощью npm run</a>
+              </li>
+              <li>
+                <a href="https://nicothin.pro/idiomatic-pre-CSS/">SCSS + БЭМ</a>
+              </li>
+              <li>
+                <a href="https://sass-scss.ru/guide/">SCSS - нас интересует вложенность правил, импорты, переменные</a>
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/blog/useful/css/about-normalize-css">normalize.css</a>
+              </li>
+              <li>
+                <a href="#">autoprefixer</a>
+              </li>
+              <li>
+                <a href="#">editorconfig</a>
+              </li>
+              <div class="works">
+                <h3>На что смотрим в верстке</h3>
+                <p><br>
+                Правильный БЭМ нейминг<br>
+                Корректное использование тегов<br>
+                Корректное отображение на всех разрешениях от 320px до 1920px<br>
+                Нормально подключенные шрифты<br>
+                Коррекная работа интерактива<br>
+                Использование возможностей SCSS в сочетании с БЭМ<br>
+                Плавные анимации, ховеры на кликабельных элементах<br>
+                Отсутствие ошибок в консоли</p>
+              </div>
+            </ul>
+            <div class="works">
+              <h3>Практическая задача</h3>
+              <p><br>
+              <a href="https://gist.github.com/jm-program/b786de1a1f34b62d3c30e587fb0c3d3d">Задание по верстке.</a><br>
+              Скрипты для запуска проекта и деплоя на Github Pages смотрим в репо сборки.</p>
+            </div>
+          </div><button id="readMoreBtnf">Показать темы</button>
+        </div>
+      </div>
+      <div id="tab2" class="tab-item">
+        <img class="loock" src="./assets/img/blur.png" alt="">
+      </div>
+      <div id="tab3" class="tab-item">
+        <img class="loock" src="./assets/img/blur.png" alt="">
+      </div>
+      <div id="tab4" class="tab-item">
+        <img class="loock" src="./assets/img/blur.png" alt="">
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
